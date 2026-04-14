@@ -1,0 +1,921 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistemas de Informação</title>
+    <meta
+      name="description"
+      content="Exemplo de página estática moderna e responsiva inspirada no portal do IFSULDEMINAS Campus Machado."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Ir para o conteúdo principal</a>
+
+    <div class="topbar">
+      <div class="container topbar-inner">
+        <div class="topbar-brand">
+          <span class="dot"></span>
+          <span>Curso de sistemas de informação • Campus Machado</span>
+        </div>
+        <div class="topbar-links">
+          <a href="#servicos">Serviços</a>
+          <a href="#noticias">Notícias</a>
+          <a href="#acesso-rapido">Acesso rápido</a>
+        </div>
+      </div>
+    </div>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a
+          class="logo"
+          href="#inicio"
+          aria-label="Página inicial de Sistemas de Informação Campus Machado"
+        >
+          <div class="logo-mark">
+            <span></span><span></span><span></span><span></span><span></span>
+          </div>
+          <div class="logo-text">
+            <strong>SI</strong>
+            <small>Campus Machado</small>
+          </div>
+        </a>
+
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          aria-label="Abrir menu"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav class="main-nav" id="mainNav">
+          <a href="#inicio">Início</a>
+          <a href="#cursos">Matérias</a>
+          <a href="#campus">Campus</a>
+          <a href="#pesquisa">Pesquisa</a>
+          <a href="#extensao">Extensão</a>
+          <a href="#noticias">Notícias</a>
+          <a class="nav-cta" href="#acesso-rapido">Acesso rápido</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero" id="inicio">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal visible">
+            <div class="eyebrow">Bacharelado em Sistemas de Informação</div>
+            <h1>Curso de Sistemas de Informação</h1>
+            <p>
+              O bacharelado forma profissionais para projetar, desenvolver e
+              gerenciar softwares e infraestruturas de TI, unindo conhecimentos
+              técnicos e análise de negócios.
+            </p>
+
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#cursos">Ver grade curricular</a>
+              <a class="btn btn-secondary" href="#noticias"
+                >Avisos e projetos</a
+              >
+            </div>
+
+            <div class="hero-stats">
+              <div>
+                <strong>8 períodos</strong>
+                <span>de Duração mínima</span>
+              </div>
+              <div>
+                <strong>4 laboratórios</strong>
+                <span>de Informática práticos</span>
+              </div>
+              <div>
+                <strong>3000+ horas</strong>
+                <span>de Carga horária total</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-panel reveal">
+            <div class="hero-slider card-soft">
+              <div class="hero-slider-top">
+                <span class="badge badge-green">Notícia Acadêmica</span>
+                <div class="slider-controls">
+                  <button
+                    class="slider-btn"
+                    id="prevSlide"
+                    aria-label="Slide anterior"
+                  >
+                    ‹
+                  </button>
+                  <button
+                    class="slider-btn"
+                    id="nextSlide"
+                    aria-label="Próximo slide"
+                  >
+                    ›
+                  </button>
+                </div>
+              </div>
+              <h2 id="heroTitle">
+                Defesas de TCC: Projetos de automação e dados marcam o semestre.
+              </h2>
+              <p id="heroText">
+                Alunos do 7º e 8º período apresentaram sistemas voltados para
+                demandas reais da região, aplicando conceitos de computação em
+                nuvem e engenharia de software.
+              </p>
+              <div class="hero-slider-footer">
+                <span id="heroCounter">01 / 03</span>
+                <a href="#oportunidades">Ler documentação completa</a>
+              </div>
+            </div>
+
+            <div class="hero-mini-grid">
+              <article class="mini-card">
+                <strong>Laboratórios</strong>
+                <span
+                  >Práticas de programação, redes, hardware e sistemas
+                  operacionais.</span
+                >
+              </article>
+              <article class="mini-card">
+                <strong>Extensão e Pesquisa</strong>
+                <span
+                  >Oportunidades em projetos no Polo Embrapii e iniciação
+                  científica.</span
+                >
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="servicos">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <span class="section-tag">Serviços</span>
+              <h2>Atalhos institucionais principais</h2>
+              <p>
+                Inspirado no bloco de serviços exibido no topo do portal
+                oficial.
+              </p>
+            </div>
+          </div>
+
+          <div class="service-grid">
+            <a
+              class="service-card reveal"
+              href="https://portal.mch.ifsuldeminas.edu.br/contato"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <strong>Contato</strong>
+              <span>Fale com o campus e encontre informações úteis.</span>
+            </a>
+            <a class="service-card reveal" href="#">
+              <strong>Agenda da Diretora</strong>
+              <span
+                >Espaço para divulgação de compromissos institucionais.</span
+              >
+            </a>
+            <a class="service-card reveal" href="#">
+              <strong>Comunicação</strong>
+              <span>Canal de notícias, avisos e ações de divulgação.</span>
+            </a>
+            <a class="service-card reveal" href="#">
+              <strong>Transparência</strong>
+              <span>Acesso a dados e informações institucionais.</span>
+            </a>
+            <a
+              class="service-card reveal"
+              href="https://www.ifsuldeminas.edu.br/ouvidoria"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <strong>Ouvidoria</strong>
+              <span
+                >Canal oficial para manifestações e atendimento ao
+                cidadão.</span
+              >
+            </a>
+            <a class="service-card reveal" href="#noticias">
+              <strong>Mais notícias</strong>
+              <span>Consulte os destaques e comunicados publicados.</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt" id="destaques">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <span class="section-tag">Destaques</span>
+              <h2>Atalhos em evidência</h2>
+              <p>
+                Bloco baseado nos botões principais exibidos no portal do Campus
+                Machado.
+              </p>
+            </div>
+          </div>
+
+          <div class="highlight-grid">
+            <a class="highlight-card reveal" href="#">
+              <div class="icon-circle">🎓</div>
+              <h3>Portal do Aluno</h3>
+              <p>Acesso acadêmico centralizado.</p>
+            </a>
+            <a class="highlight-card reveal" href="#">
+              <div class="icon-circle">👥</div>
+              <h3>Portal do Servidor</h3>
+              <p>Recursos internos e administrativos.</p>
+            </a>
+            <a class="highlight-card reveal" href="#">
+              <div class="icon-circle">🏛️</div>
+              <h3>Portal da Administração</h3>
+              <p>Ferramentas e sistemas institucionais.</p>
+            </a>
+            <a class="highlight-card reveal" href="#">
+              <div class="icon-circle">💚</div>
+              <h3>Bolsas e Auxílios</h3>
+              <p>Apoio estudantil e benefícios.</p>
+            </a>
+            <a class="highlight-card reveal" href="#">
+              <div class="icon-circle">📝</div>
+              <h3>Vestibular</h3>
+              <p>Processos seletivos e ingresso.</p>
+            </a>
+            <a class="highlight-card reveal" href="#">
+              <div class="icon-circle">📢</div>
+              <h3>Editais</h3>
+              <p>Chamadas, seleções e oportunidades.</p>
+            </a>
+            <a class="highlight-card reveal" href="#">
+              <div class="icon-circle">🔎</div>
+              <h3>Transparência</h3>
+              <p>Dados e informações públicas.</p>
+            </a>
+            <a class="highlight-card reveal" href="#">
+              <div class="icon-circle">💻</div>
+              <h3>Capacita em Rede</h3>
+              <p>Formação e desenvolvimento online.</p>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="cursos">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <span class="section-tag">Grade Curricular</span>
+              <h2>Disciplinas do Bacharelado</h2>
+              <p>
+                Estrutura das disciplinas obrigatórias e áreas de conhecimento
+                distribuídas ao longo dos oito períodos.
+              </p>
+            </div>
+          </div>
+
+          <div class="course-columns">
+            <article class="course-block reveal">
+              <div class="course-head">
+                <h3>Fundamentos e Lógica</h3>
+                <a
+                  href="https://portal.mch.ifsuldeminas.edu.br/tecnicos"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Ver ementas</a
+                >
+              </div>
+              <ul>
+                <li>Algoritmos e Programação</li>
+                <li>Estruturas de Dados</li>
+                <li>Arquitetura de Computadores</li>
+                <li>Sistemas Operacionais</li>
+                <li>Redes de Computadores</li>
+                <li>Cálculo Diferencial e Integral</li>
+                <li>Matemática Discreta</li>
+                <li>Teoria dos Grafos</li>
+                <li>Fundamentos de SI</li>
+              </ul>
+            </article>
+
+            <article class="course-block reveal">
+              <div class="course-head">
+                <h3>Engenharia e Desenvolvimento</h3>
+                <a
+                  href="https://portal.mch.ifsuldeminas.edu.br/superiores"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Ver ementas</a
+                >
+              </div>
+              <ul>
+                <li>Engenharia de Software</li>
+                <li>Banco de Dados I e II</li>
+                <li>Programação Orientada a Objetos</li>
+                <li>Desenvolvimento Web Front-end</li>
+                <li>Desenvolvimento Back-end</li>
+                <li>Inteligência Artificial</li>
+                <li>Interação Humano-Computador</li>
+                <li>Qualidade de Software</li>
+              </ul>
+            </article>
+
+            <article class="course-block reveal compact">
+              <div class="course-head">
+                <h3>Gestão e Integração</h3>
+                <a href="#acesso-rapido">Ver requisitos</a>
+              </div>
+              <ul>
+                <li>
+                  <a
+                    href="https://portal.mch.ifsuldeminas.edu.br/pos-graduacao-lato-sensu"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Gestão de Projetos de TI</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://portal.mch.ifsuldeminas.edu.br/mestrado-em-alimentos"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Segurança da Informação</a
+                  >
+                </li>
+                <li><a href="#">Sistemas Distribuídos</a></li>
+                <li>
+                  <a
+                    href="https://portal.mch.ifsuldeminas.edu.br/cursos-ead"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Empreendedorismo e Inovação</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://mooc.mch.ifsuldeminas.edu.br"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Governança de TI</a
+                  >
+                </li>
+                <li><a href="#">Estágio e TCC</a></li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt" id="campus">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <span class="section-tag">Infraestrutura</span>
+              <h2>Recursos para Alunos de SI</h2>
+              <p>
+                Espaços físicos e laboratórios disponibilizados no Campus
+                Machado para aulas práticas, grupos de estudo e pesquisa.
+              </p>
+            </div>
+          </div>
+
+          <div class="link-card-grid">
+            <a class="link-card reveal" href="#"
+              >Coordenação de Sistemas de Informação</a
+            >
+            <a class="link-card reveal" href="#">Laboratórios de Programação</a>
+            <a class="link-card reveal" href="#"
+              >Laboratório de Hardware e Redes</a
+            >
+            <a class="link-card reveal" href="#">Polo de Inovação Embrapii</a>
+            <a class="link-card reveal" href="#">Biblioteca Institucional</a>
+            <a class="link-card reveal" href="#"
+              >Núcleo de Tecnologia da Informação (NTI)</a
+            >
+            <a class="link-card reveal" href="#">Setor de Estágios</a>
+            <a class="link-card reveal" href="#"
+              >Salas de Professores (Gabinete)</a
+            >
+            <a class="link-card reveal" href="#"
+              >Núcleo Institucional de Pesquisa (NIPE)</a
+            >
+            <a class="link-card reveal" href="#"
+              >Espaços de Convivência e Estudo</a
+            >
+            <a
+              class="link-card reveal"
+              href="https://estacaocultura.radio.br"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Empresa Júnior de Tecnologia</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="pesquisa">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <span class="section-tag"
+                >Pesquisa, Pós-graduação e Inovação</span
+              >
+              <h2>Pesquisa e inovação em evidência</h2>
+              <p>
+                Explore as iniciativas científicas, projetos de inovação
+                tecnológica e programas de especialização oferecidos pelo
+                campus.
+              </p>
+            </div>
+          </div>
+
+          <div class="feature-layout">
+            <article class="feature-panel reveal">
+              <h3>Áreas estratégicas</h3>
+              <p>
+                Fomentamos o desenvolvimento tecnológico através de grupos de
+                pesquisa, laboratórios especializados, comitês de ética e
+                parcerias com o setor produtivo, conectando a academia às
+                demandas da sociedade.
+              </p>
+            </article>
+            <div class="link-card-grid small-gap">
+              <a class="link-card reveal" href="#">Apresentação</a>
+              <a class="link-card reveal" href="#">NIPE</a>
+              <a class="link-card reveal" href="#">Mestrado</a>
+              <a
+                class="link-card reveal"
+                href="https://portal.ifsuldeminas.edu.br"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Acessar o site do Polo Embrapii (abre em nova guia)"
+                >Polo Embrapii</a
+              >
+              <a
+                class="link-card reveal"
+                href="https://gppex.ifsuldeminas.edu.br"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Acessar o sistema GPPEX (abre em nova guia)"
+                >GPPEX</a
+              >
+              <a class="link-card reveal" href="#"
+                >Comitê de Ética em Pesquisa</a
+              >
+              <a class="link-card reveal" href="#">Editais</a>
+              <a class="link-card reveal" href="#">CEUA</a>
+              <a class="link-card reveal" href="#">Laboratórios</a>
+              <a class="link-card reveal" href="#">Equipe DPPI</a>
+              <a class="link-card reveal" href="#">Notícias - Pesquisa</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt" id="extensao">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <span class="section-tag">Ensino</span>
+              <h2>Excelência Acadêmica</h2>
+              <p>
+                Atalhos rápidos para os principais serviços e informações
+                acadêmicas do campus.
+              </p>
+            </div>
+          </div>
+
+          <div class="link-card-grid">
+            <a class="link-card reveal" href="#">Cursos Técnicos</a>
+            <a class="link-card reveal" href="#">Cursos de Graduação</a>
+            <a class="link-card reveal" href="#">Pós-graduação</a>
+            <a class="link-card reveal" href="#">Calendário Acadêmico</a>
+            <a class="link-card reveal" href="#">Horários de Aula</a>
+            <a class="link-card reveal" href="#">Biblioteca</a>
+            <a class="link-card reveal" href="#">Secretaria Acadêmica</a>
+            <a class="link-card reveal" href="#">Sistema Acadêmico</a>
+            <a class="link-card reveal" href="#">Assistência Estudantil</a>
+            <a class="link-card reveal" href="#">Monitoria</a>
+            <a class="link-card reveal" href="#">Apoio Psicopedagógico</a>
+            <a class="link-card reveal" href="#">Regulamentos e Normas</a>
+            <a class="link-card reveal" href="#">Notícias - Ensino</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="oportunidades">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <span class="section-tag">Oportunidades</span>
+              <h2>Editais, inscrições e chamadas</h2>
+              <p>
+                Processos seletivos e editais abertos para a comunidade
+                acadêmica.
+              </p>
+            </div>
+          </div>
+
+          <div class="news-grid two-columns">
+            <a
+              href="#"
+              class="news-card reveal"
+              style="text-decoration: none; color: inherit; display: block"
+            >
+              <div
+                style="
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  margin-bottom: 1rem;
+                "
+              >
+                <span class="badge">EaD</span>
+                <time
+                  datetime="2026-04-10"
+                  style="font-size: 0.8rem; color: #666"
+                  >10 Abr 2026</time
+                >
+              </div>
+              <h3>
+                Seleção para o curso Google Docs na modalidade a distância
+              </h3>
+              <p>
+                Exemplo de card para destacar processos seletivos, chamadas de
+                inscrição e cursos abertos.
+              </p>
+            </a>
+
+            <a
+              href="#"
+              class="news-card reveal"
+              style="text-decoration: none; color: inherit; display: block"
+            >
+              <div
+                style="
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  margin-bottom: 1rem;
+                "
+              >
+                <span class="badge">Extensão</span>
+                <time
+                  datetime="2026-04-08"
+                  style="font-size: 0.8rem; color: #666"
+                  >08 Abr 2026</time
+                >
+              </div>
+              <h3>Submissão de projetos de extensão com fomento interno</h3>
+              <p>
+                Espaço para divulgar editais de apoio, seleção de propostas e
+                ações institucionais.
+              </p>
+            </a>
+
+            <a
+              href="#"
+              class="news-card reveal"
+              style="text-decoration: none; color: inherit; display: block"
+            >
+              <div
+                style="
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  margin-bottom: 1rem;
+                "
+              >
+                <span class="badge">Pesquisa</span>
+                <time
+                  datetime="2026-04-05"
+                  style="font-size: 0.8rem; color: #666"
+                  >05 Abr 2026</time
+                >
+              </div>
+              <h3>
+                NIPE abre edital para fomento de projetos de pesquisa e inovação
+              </h3>
+              <p>
+                Modelo de exibição mais legível para chamadas acadêmicas e
+                científicas.
+              </p>
+            </a>
+
+            <a
+              href="#"
+              class="news-card reveal"
+              style="text-decoration: none; color: inherit; display: block"
+            >
+              <div
+                style="
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  margin-bottom: 1rem;
+                "
+              >
+                <span class="badge">Monitoria</span>
+                <time
+                  datetime="2026-04-01"
+                  style="font-size: 0.8rem; color: #666"
+                  >01 Abr 2026</time
+                >
+              </div>
+              <h3>Inscrições para monitoria remunerada</h3>
+              <p>
+                Organização visual pensada para orientar o estudante rapidamente
+                ao conteúdo.
+              </p>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt" id="noticias">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <span class="section-tag">Notícias</span>
+              <h2>Conteúdos recentes do Campus Machado</h2>
+              <p>Acompanhe o que acontece no dia a dia do nosso campus.</p>
+            </div>
+          </div>
+
+          <div class="news-grid">
+            <article class="news-card reveal">
+              <span
+                class="badge"
+                style="background: var(--primary-color); color: white"
+                >Campus</span
+              >
+              <h3>
+                Ações de conscientização sobre o autismo ao longo de abril
+              </h3>
+              <p>
+                Exemplo de notícia institucional com resumo curto e hierarquia
+                visual clara.
+              </p>
+              <a
+                href="#"
+                style="
+                  display: inline-block;
+                  margin-top: 1rem;
+                  font-weight: 600;
+                  font-size: 0.9rem;
+                  color: var(--primary-color);
+                "
+                >Ler notícia completa →</a
+              >
+            </article>
+
+            <article class="news-card reveal">
+              <span
+                class="badge"
+                style="background: var(--primary-color); color: white"
+                >Pesquisa</span
+              >
+              <h3>
+                Destaque no Congresso Técnico Científico de Agricultura Orgânica
+              </h3>
+              <p>
+                Modelo para evidenciar conquistas acadêmicas e participação em
+                eventos científicos.
+              </p>
+              <a
+                href="#"
+                style="
+                  display: inline-block;
+                  margin-top: 1rem;
+                  font-weight: 600;
+                  font-size: 0.9rem;
+                  color: var(--primary-color);
+                "
+                >Ler notícia completa →</a
+              >
+            </article>
+
+            <article class="news-card reveal">
+              <span
+                class="badge"
+                style="background: var(--primary-color); color: white"
+                >Mestrado</span
+              >
+              <h3>Prêmio de melhores dissertações do mestrado</h3>
+              <p>
+                Formato pensado para ampliar a visibilidade das produções
+                acadêmicas.
+              </p>
+              <a
+                href="#"
+                style="
+                  display: inline-block;
+                  margin-top: 1rem;
+                  font-weight: 600;
+                  font-size: 0.9rem;
+                  color: var(--primary-color);
+                "
+                >Ler notícia completa →</a
+              >
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="acontece">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <span class="section-tag">Acontece no IFSULDEMINAS</span>
+              <h2>Notícias da instituição</h2>
+              <p>Destaques de todo o instituto integrados ao portal.</p>
+            </div>
+          </div>
+
+          <div class="institutional-list">
+            <a
+              class="institutional-item reveal"
+              href="https://portal.ifsuldeminas.edu.br"
+              target="_blank"
+              rel="noopener noreferrer"
+              style="
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+              "
+            >
+              <div>
+                <strong style="display: block; font-size: 1.1rem"
+                  >Pesquisa sobre qualidade de vida estudantil</strong
+                >
+                <span style="color: #666"
+                  >Chamada institucional para participação da comunidade
+                  acadêmica.</span
+                >
+              </div>
+              <span
+                style="
+                  font-size: 1.5rem;
+                  color: var(--primary-color);
+                  margin-left: 1rem;
+                "
+                >➔</span
+              >
+            </a>
+
+            <a
+              class="institutional-item reveal"
+              href="https://portal.ifsuldeminas.edu.br"
+              target="_blank"
+              rel="noopener noreferrer"
+              style="
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+              "
+            >
+              <div>
+                <strong style="display: block; font-size: 1.1rem"
+                  >Aquisição de novos computadores para laboratórios</strong
+                >
+                <span style="color: #666"
+                  >Exemplo de atualização institucional replicada no portal do
+                  campus.</span
+                >
+              </div>
+              <span
+                style="
+                  font-size: 1.5rem;
+                  color: var(--primary-color);
+                  margin-left: 1rem;
+                "
+                >➔</span
+              >
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt" id="acesso-rapido">
+        <div class="container">
+          <div class="section-head reveal">
+            <div>
+              <span class="section-tag">Acesso rápido</span>
+              <h2>Atalhos úteis para navegação diária</h2>
+              <p>
+                Releitura da área inferior do portal com foco em utilidade
+                imediata.
+              </p>
+            </div>
+          </div>
+
+          <div class="quick-grid">
+            <a class="quick-card reveal" href="#">CPA</a>
+            <a
+              class="quick-card reveal"
+              href="https://www.instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Instagram</a
+            >
+            <a
+              class="quick-card reveal"
+              href="https://www.facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Facebook</a
+            >
+            <a
+              class="quick-card reveal"
+              href="https://estacaocultura.radio.br"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Rádio Estação Cultura FM</a
+            >
+            <a class="quick-card reveal" href="#">Portal do Aluno</a>
+            <a class="quick-card reveal" href="#">Vestibular</a>
+            <a class="quick-card reveal" href="#">Editais</a>
+            <a class="quick-card reveal" href="#">Transparência</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <h3>IFSULDEMINAS Campus Machado</h3>
+          <p>
+            Exemplo de página estática criado para estudo, inspirado na
+            organização real do portal institucional e separado em HTML, CSS e
+            JavaScript.
+          </p>
+        </div>
+
+        <div>
+          <h4>Seções</h4>
+          <ul>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#destaques">Destaques</a></li>
+            <li><a href="#cursos">Cursos</a></li>
+            <li><a href="#noticias">Notícias</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Links externos</h4>
+          <ul>
+            <li>
+              <a
+                href="https://portal.mch.ifsuldeminas.edu.br/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Portal oficial</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://portal.ifsuldeminas.edu.br"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Portal IFSULDEMINAS</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://mooc.mch.ifsuldeminas.edu.br"
+                target="_blank"
+                rel="noopener noreferrer"
+                >MOOCs</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://estacaocultura.radio.br"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Rádio Estação Cultura FM</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
